@@ -1,0 +1,15 @@
+class B
+{
+String a;
+int b;
+B(String a,int b)
+{
+this.a=a;
+this.b=b;
+}
+public static void main(String[] args)
+{
+	B b1 = new B("hi",5);
+	System.out.println(b1.a+" "+b1.b);
+}
+}	
